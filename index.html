@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Pulse for Android's support page, published as https://vnikie1.github.io/pulse-android-support/ -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse — Support (Android)</title>
+<style>
+  :root { color-scheme: light dark; --ink: #2b2620; --muted: #6f665c; --page: #f6f1ea; --rule: #e2d9cd; --accent: #c4673f; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #efe8de; --muted: #a99f93; --page: #1c1915; --rule: #36302a; --accent: #e08a62; } }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-family: Georgia, serif; font-weight: 500; font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-family: Georgia, serif; font-weight: 500; font-size: 1.35rem; margin: 2.5rem 0 0.4rem; }
+  h3 { font-size: 1.05rem; margin: 1.5rem 0 0.2rem; }
+  p { margin: 0.4rem 0; }
+  .meta { color: var(--muted); margin-bottom: 1.5rem; }
+  .summary { border-left: 3px solid var(--accent); padding-left: 12px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); margin-top: 3rem; border-top: 1px solid var(--rule); padding-top: 1rem; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Support</h1>
+<p class="meta">Pulse Insights for Android phones, tablets, foldables and Wear OS watches</p>
+
+<p class="summary">Need a hand, found a bug, or have a feature idea? Email
+<a href="mailto:vnikie1@gmail.com">vnikie1@gmail.com</a> and we'll get back to you.</p>
+
+<h2>Your data in Pulse</h2>
+
+<h3>Why does Pulse ask for Health Connect access?</h3>
+<p>Pulse shows trends from what's in Health Connect: your workouts and their routes, distance, calories,
+heart rate, steps, sleep and VO₂ Max. It writes there only the workouts you record with Pulse on your
+watch. You choose what it can read and save, and you can change that at any time in Health Connect, under
+App permissions › Pulse.</p>
+
+<h3>I allowed access but see no data.</h3>
+<p>Pulse shows what apps and watches have saved to Health Connect, so check that the one recording your
+activity saves there: many have a setting for it. Then check Pulse's access in Health Connect, under App
+permissions › Pulse, where “Allow all” turns everything on. Pulse picks up changes when you come back to
+it.</p>
+
+<h3>A total looks too low or reads zero.</h3>
+<p>Health Connect adds up its totals from the apps on its priority list. In Health Connect, open Data and
+access › Data sources and priority, and check that the app recording your steps, distance or calories is
+on the list.</p>
+
+<h3>Pulse shows only my recent history.</h3>
+<p>Health Connect lets an app read back 30 days from when you first gave it access, unless you allow more.
+To see everything, open App permissions › Pulse › Additional access in Health Connect, and turn on Access
+past data.</p>
+
+<h3>Why does a workout ask before showing its route?</h3>
+<p>Health Connect asks each time before sharing a route that another app recorded. Tap “Show route recorded
+by…” on the workout. To stop being asked, open App permissions › Pulse › Additional access in Health
+Connect, and set Access exercise routes to Always allow.</p>
+
+<h2>Your watch</h2>
+
+<h3>Do I need a watch?</h3>
+<p>Not to see your data. You need Pulse on a Wear OS watch to record workouts with Pulse. For rings, sleep
+and VO₂ Max, a watch or fitness app that writes to Health Connect is recommended.</p>
+
+<h3>A workout from my watch hasn't reached my phone.</h3>
+<p>The watch keeps each workout in its own history, then hands it to Pulse on your phone, which saves it to
+Health Connect. If Pulse isn't allowed to write there, the workout waits and a notification tells you: allow
+it, then open Pulse on your phone. Otherwise, check that your watch and phone are connected. Opening Pulse on
+either one picks up anything still waiting.</p>
+
+<h2>Timers and reports</h2>
+
+<h3>Why does a timer ask for physical activity?</h3>
+<p>On Android 14 and 15, Android keeps a timer running with the screen off only with this permission. Pulse
+reads nothing with it. If you refuse, the timer still runs, with the screen kept on.</p>
+
+<h3>How do the weekly reports work?</h3>
+<p>Pulse creates each report on your phone, and it leaves only when you share or email it yourself: nothing
+is sent automatically. Turn on Automated weekly email, and every Monday at 9:00 Pulse reminds you and opens
+last week's report, ready for you to send.</p>
+
+<h2>Privacy and your devices</h2>
+
+<h3>Is my data private?</h3>
+<p>Pulse has no accounts, no analytics and no ads, and your health data is read and kept on your own devices.
+The <a href="privacy.html">Privacy Policy</a> lists what leaves them: your own Android backup, which never
+includes health data, map requests, and anything you choose to share.</p>
+
+<h3>How do I delete my data?</h3>
+<p>In Pulse, Profile › Delete Account removes your profile and everything Pulse has read from Health Connect.
+Health Connect itself doesn't change, so workouts Pulse saved there stay until you delete them in Health
+Connect. Uninstalling Pulse from your phone or watch removes everything it stored there.</p>
+
+<h3>Which devices are supported?</h3>
+<p>Phones, tablets and foldables on Android 11 or later, and watches on Wear OS 4 or later. Health Connect is
+part of Android 14 and later. On earlier versions it's an app from Google Play, and Pulse tells you if it
+needs an update.</p>
+
+<footer>Pulse is not a medical device and does not provide medical advice. ·
+<a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
